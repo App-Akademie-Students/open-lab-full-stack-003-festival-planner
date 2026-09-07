@@ -1,6 +1,6 @@
-Als nächstes würde ich **6. Anforderungen definieren** setzen.
+# Roadmap Festival Planner
 
-Die Reihenfolge wäre dann sehr stimmig:
+* Entscheide über Einsatz von AI
 
 1. **Project Goal**
    Wir entwickeln gemeinsam einen kleinen **Festival Planner**.
@@ -18,7 +18,6 @@ Die Reihenfolge wäre dann sehr stimmig:
    `CLAUDE.md` anlegen und Development Rules definieren.
 
 6. **Anforderungen definieren**
-   Mit Claude klären:
 
    * Was soll die Anwendung konkret können?
    * Was ist Muss, was ist optional?
