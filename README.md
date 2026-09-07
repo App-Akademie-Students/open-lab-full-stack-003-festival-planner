@@ -1,52 +1,281 @@
 # Festival Planner
 
-## Projektziel
+Gemeinsames Open-Lab-Projekt zum Thema:
 
-Im Rahmen des Open Lab Full Stack Builds entwickeln wir gemeinsam einen kleinen, funktionierenden Festival Planner als Full-Stack-Webanwendung.
+**Vom Vibe Coding zum Software Engineering**
 
-Die Anwendung soll es ermöglichen, Artists, Bühnen und Festival-Auftritte zu verwalten und daraus einen einfachen Spielplan darzustellen.
+Ziel ist es, eine kleine Webanwendung strukturiert zu planen und umzusetzen und dabei Claude Code gezielt als Entwicklungswerkzeug einzusetzen.
 
-## Schwerpunkt
+---
 
-Der Fokus liegt nicht nur auf der Implementierung, sondern auf einem strukturierten Softwareentwicklungsprozess mit AI-Unterstützung.
+## Ziel des Projekts
 
-Claude wird dabei unter anderem eingesetzt für:
+Wir entwickeln gemeinsam einen kleinen **Festival Planner**.
+
+Dabei durchlaufen wir typische Schritte der Softwareentwicklung:
+
+* Anforderungen klären
+* Projektstruktur festlegen
+* Datenmodell entwerfen
+* Backend entwickeln
+* Frontend entwickeln
+* Datenbank anbinden
+* testen
+* Code überprüfen und verbessern
+
+Claude Code wird dabei unterstützend eingesetzt, zum Beispiel für:
 
 * Anforderungsanalyse
-* Strukturierung
-* Architekturüberlegungen
-* Datenmodellierung
-* Implementierungsplanung
-* Code-Unterstützung
-* Review und Änderungen
+* Projektplanung
+* Architekturvorschläge
+* Implementierung
+* Refactoring
+* Tests
+* Dokumentation
 
-## Technischer Rahmen
+---
 
-* Python
-* FastAPI
-* SQLAlchemy
-* SQLite
-* HTML
-* JavaScript
-* REST API / JSON
+## Technologien
 
-## Grundidee der Architektur
+Geplant sind:
 
-```text
-Frontend
-HTML / JavaScript
-        │
-        │ REST / JSON
-        ▼
-FastAPI Backend
-        │
-        │ SQLAlchemy ORM
-        ▼
-SQLite
+* **Python**
+* **FastAPI**
+* **SQLite**
+* **SQLAlchemy**
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Claude Code**
+* **Visual Studio Code**
+
+---
+
+## Voraussetzungen
+
+Ihr benötigt:
+
+* Visual Studio Code
+* Python 3
+* Git
+* Claude Code
+
+Die Installation von Claude Code ist hier beschrieben:
+
+[Claude Code unter VS Code installieren](docs/claude-install.md)
+
+---
+
+## Repository klonen
+
+```bash
+git clone https://github.com/App-Akademie-Students/open-lab-full-stack-003-festival-planner.git
 ```
 
-## Projektstatus
+Anschließend in den Projektordner wechseln:
 
-Das Projekt wird während der Open Lab Sessions schrittweise entwickelt.
+```bash
+cd festival-planner
+```
 
-Anforderungen, Datenmodell, Architektur und Projektstruktur werden gemeinsam erarbeitet und anschließend im Projekt dokumentiert.
+Das Projekt in VS Code öffnen:
+
+```bash
+code .
+```
+
+---
+
+## Python-Version prüfen
+
+Im Terminal:
+
+```bash
+python --version
+```
+
+Falls der Befehl unter macOS oder Linux nicht funktioniert:
+
+```bash
+python3 --version
+```
+
+---
+
+## Virtuelle Python-Umgebung erstellen
+
+Im Hauptverzeichnis des Projekts:
+
+```bash
+python -m venv .venv
+```
+
+Unter macOS/Linux gegebenenfalls:
+
+```bash
+python3 -m venv .venv
+```
+
+Die virtuelle Umgebung wird im Ordner
+
+```text
+.venv
+```
+
+angelegt.
+
+---
+
+## Virtuelle Umgebung aktivieren
+
+### Windows PowerShell
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### Windows CMD
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+### macOS / Linux
+
+```bash
+source .venv/bin/activate
+```
+
+Nach erfolgreicher Aktivierung sollte im Terminal ungefähr Folgendes erscheinen:
+
+```text
+(.venv)
+```
+
+---
+
+## Abhängigkeiten installieren
+
+```bash
+pip install -r requirements.txt
+```
+
+Damit werden alle für das Projekt benötigten Python-Pakete installiert.
+
+---
+
+## Virtuelle Umgebung deaktivieren
+
+Falls ihr die virtuelle Umgebung verlassen möchtet:
+
+```bash
+deactivate
+```
+
+---
+
+## Claude Code starten
+
+Claude kann direkt über die VS-Code-Erweiterung verwendet werden.
+
+Alternativ im VS-Code-Terminal:
+
+```bash
+claude
+```
+
+Ein möglicher erster Prompt:
+
+```text
+Analysiere das Projekt.
+
+Beschreibe:
+- die aktuelle Projektstruktur
+- die verwendeten Technologien
+- den aktuellen Entwicklungsstand
+
+Ändere noch keine Dateien.
+```
+
+---
+
+## CLAUDE.md
+
+Im Projekt befindet sich eine Datei:
+
+```text
+CLAUDE.md
+```
+
+Sie enthält den zentralen Projektkontext für Claude Code.
+
+Dort können unter anderem festgehalten werden:
+
+* Projektziel
+* Technologien
+* Architektur
+* Coding-Konventionen
+* Entwicklungsregeln
+* wichtige Befehle
+* aktuelle Anforderungen
+
+Die Datei wird während des Projekts gemeinsam weiterentwickelt.
+
+---
+
+## Projektstruktur
+
+Die Projektstruktur wird im Verlauf des Open Labs gemeinsam entwickelt.
+
+Eine mögliche Struktur könnte später beispielsweise so aussehen:
+
+```text
+festival-planner/
+│
+├── README.md
+├── CLAUDE.md
+├── requirements.txt
+├── .gitignore
+│
+├── docs/
+│   └── claude-install.md
+│
+├── backend/
+│
+└── frontend/
+```
+
+Die endgültige Struktur ist bewusst noch nicht vollständig vorgegeben.
+
+---
+
+## Git
+
+Die virtuelle Python-Umgebung wird nicht in Git gespeichert.
+
+In `.gitignore` sollte deshalb stehen:
+
+```gitignore
+.venv/
+```
+
+Weitere automatisch erzeugte Dateien können ebenfalls ausgeschlossen werden, zum Beispiel:
+
+```gitignore
+__pycache__/
+*.pyc
+```
+
+---
+
+## Open Lab
+
+Das Projekt wird gemeinsam in mehreren Sessions entwickelt.
+
+Der Fokus liegt nicht nur darauf, dass die Anwendung funktioniert.
+
+Wir wollen nachvollziehen, wie aus einer zunächst einfachen Idee Schritt für Schritt ein strukturiertes Softwareprojekt entsteht:
+
+**Idee → Anforderungen → Planung → Architektur → Implementierung → Tests → Verbesserung**
+
+Dabei untersuchen wir insbesondere, an welchen Stellen AI-Unterstützung hilfreich ist und wo weiterhin Software-Engineering-Entscheidungen notwendig sind.
