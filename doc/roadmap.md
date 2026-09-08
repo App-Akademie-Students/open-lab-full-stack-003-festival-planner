@@ -1,6 +1,7 @@
 # Roadmap Festival Planner
 
-* Entscheide über Einsatz von AI
+* Entscheide über Einsatz von AI!
+* in welchen Phasen ist AI besonders hilfreich?
 
 1. **Project Goal**
    Wir entwickeln gemeinsam einen kleinen **Festival Planner**.
@@ -9,10 +10,10 @@
    Erste Arbeitspakete sichtbar machen.
 
 3. **Technischen Rahmen festlegen**
-   Webanwendung mit Frontend/Backend, Python, HTML, JavaScript, SQLite/SQLAlchemy.
+
 
 4. **Projekt-Setup**
-   VS Code, Python, `venv`, Dependencies, Claude Code.
+   
 
 5. **Projektkontext / Projektregeln**
    `CLAUDE.md` anlegen und Development Rules definieren.
@@ -44,4 +45,6 @@
 12. **Refactoring / Dokumentation**
 
 
+
+# Gesammelte Promts zum nachvollziehen unseres Projektes
 
