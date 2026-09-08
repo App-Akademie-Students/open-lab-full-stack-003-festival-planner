@@ -2,8 +2,8 @@
 
 ## Project Goal
 
-TODO
 
+Wir entwickeln einen minimalistischen Festival-Planer für Festivalbesucher.
 ## Tech Stack
 
 * FastAPI

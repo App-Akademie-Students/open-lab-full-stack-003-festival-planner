@@ -5,6 +5,7 @@
 
 1. **Project Goal**
    Wir entwickeln gemeinsam einen kleinen **Festival Planner**.
+   User: Wo ist Was Wann?
 
 2. **Backlog anlegen**
    Erste Arbeitspakete sichtbar machen.
@@ -25,16 +26,14 @@
    * Welche Benutzeraktionen gibt es?
    * Was gehört bewusst **nicht** zum Scope?
 
-7. **Domain Model entwerfen**
-   Welche fachlichen Objekte brauchen wir?
-   Zum Beispiel:
-
+7. **Minimales Domain Model entwerfen**
+   
    
 
 8. **Architektur und Projektstruktur festlegen**
    
 
-9. **Umsetzung planen**
+9. User Stories ableiten & Backlog konkretisieren
    Backlog verfeinern und erste Features priorisieren.
 
 10. **Implementieren**

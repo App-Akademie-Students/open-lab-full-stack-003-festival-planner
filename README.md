@@ -239,10 +239,9 @@ festival-planner/
 │
 ├── docs/
 │   └── claude-install.md
+|   └── roadmap.md
 │
-├── backend/
-│
-└── frontend/
+
 ```
 
 Die endgültige Struktur ist bewusst noch nicht vollständig vorgegeben.
