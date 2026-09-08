@@ -2,8 +2,8 @@
 
 ## Project Goal
 
-
 Wir entwickeln einen minimalistischen Festival-Planer für Festivalbesucher.
+"Wo ist was wann?"
 ## Tech Stack
 
 * FastAPI
