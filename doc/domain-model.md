@@ -10,7 +10,7 @@ Ziel: das kleinstmögliche Modell, das die Anforderungen trägt.
 | Anforderung | Bedarf am Modell |
 |---|---|
 | F1 – Liste (Titel, Bühne, Start, Ende) | ein Datensatz pro Programmpunkt mit genau diesen Feldern |
-| F2 / C3 – Filter nach Bühne | Bühne als abfragbares Feld; Bühnenliste via `Sexit|
+| F2 / C3 – Filter nach Bühne | Bühne als abfragbares Feld; Bühnenliste via `SELECT DISTINCT stage` |
 | F3 / C2 – „läuft jetzt" / „als Nächstes" | rein aus `starts_at` / `ends_at` vs. aktueller Zeit berechnet – nichts Zusätzliches zu speichern |
 | B1 – sortierte API | Sortierung über `starts_at`, kein Feld nötig |
 | B2 / B3 – SQLite, Seed | eine Tabelle, die das Seed-Skript füllt |
