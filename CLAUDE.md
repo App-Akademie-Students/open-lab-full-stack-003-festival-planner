@@ -14,7 +14,12 @@ Wir entwickeln einen minimalistischen Festival-Planer für Festivalbesucher.
 
 ## Functional Requirements
 
-TODO
+Die MVP-Anforderungen (Muss / optional / Benutzeraktionen / Scope-Abgrenzung) sind in
+[`doc/requirements.md`](doc/requirements.md) definiert.
+
+Kurzfassung: Ein eintägiges Festival, Programm als chronologische Liste, Filter nach Bühne,
+Anzeige „läuft jetzt / kommt als Nächstes". Daten per Seed, kein Login. Bewusst so klein
+wie möglich, aber im Datenmodell auf Mehrtägigkeit vorbereitet.
 
 ## Architecture
 
@@ -22,7 +27,12 @@ TODO
 
 ## Domain Model
 
-TODO
+Vollständig in [`doc/domain-model.md`](doc/domain-model.md).
+
+Kurzfassung: Genau eine Entität `ProgramItem` mit `id`, `title`, `stage` (String),
+`starts_at`, `ends_at` (volle Zeitstempel). Nur diese Tabelle wird persistiert.
+„Läuft jetzt / kommt als Nächstes", Sortierung und Bühnenliste werden zur Laufzeit
+berechnet bzw. abgeleitet. Keine Festival-, Stage- oder User-Entität im MVP.
 
 ## Development Rules
 

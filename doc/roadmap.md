@@ -8,7 +8,7 @@
    User: Wo ist Was Wann?
 
 2. **Backlog anlegen**
-   Erste Arbeitspakete sichtbar machen.
+   Erste Arbeitspakete sichtbar machen.exit
 
 3. **Technischen Rahmen festlegen**
 
