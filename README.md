@@ -108,12 +108,15 @@ Im Hauptverzeichnis des Projekts:
 
 ```bash
 python -m venv .venv
+
+.venv\Scripts\Activate
 ```
 
 Unter macOS/Linux gegebenenfalls:
 
 ```bash
 python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 Die virtuelle Umgebung wird im Ordner

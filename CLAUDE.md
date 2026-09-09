@@ -61,3 +61,8 @@ TODO
 
 TODO
 
+## Teaching Material
+
+Files in `teaching/` are intended for participants only.
+
+Do not read, analyze, summarize, or use files from this directory unless the user explicitly asks for it.
