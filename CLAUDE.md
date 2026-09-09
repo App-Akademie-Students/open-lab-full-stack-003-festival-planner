@@ -66,3 +66,5 @@ TODO
 Files in `teaching/` are intended for participants only.
 
 Do not read, analyze, summarize, or use files from this directory unless the user explicitly asks for it.
+
+For you teaching/ is write only. When ever you think you have interesting information for teaching you can add it to teaching/

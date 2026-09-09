@@ -4,7 +4,7 @@
 * in welchen Phasen ist AI besonders hilfreich?
 
 1. **Project Goal**
-   Wir entwickeln gemeinsam einen kleinen **Festival Planner**.
+   Wir entwickeln gemeinsam einen kleinen minimalastisches **Festival Planner**.
    User: Wo ist Was Wann?
 
 2. **Backlog anlegen**
