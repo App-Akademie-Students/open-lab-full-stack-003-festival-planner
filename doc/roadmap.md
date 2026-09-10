@@ -4,11 +4,11 @@
 * in welchen Phasen ist AI besonders hilfreich?
 
 1. **Project Goal**
-   Wir entwickeln gemeinsam einen kleinen minimalastisches **Festival Planner**.
+   Wir entwickeln gemeinsam einen kleinen minimalistischen **Festival Planner**.
    User: Wo ist Was Wann?
 
 2. **Backlog anlegen**
-   Erste Arbeitspakete sichtbar machen.exit
+   Erste Arbeitspakete sichtbar machen.
 
 3. **Technischen Rahmen festlegen**
 
@@ -20,6 +20,7 @@
    `CLAUDE.md` anlegen und Development Rules definieren.
 
 6. **Anforderungen definieren**
+   → [`requirements.md`](requirements.md)
 
    * Was soll die Anwendung konkret können?
    * Was ist Muss, was ist optional?
@@ -27,14 +28,15 @@
    * Was gehört bewusst **nicht** zum Scope?
 
 7. **Minimales Domain Model entwerfen**
-   
+   → [`domain-model.md`](domain-model.md)
    
 
 8. **Architektur und Projektstruktur festlegen**
-   
+   → [`architecture.md`](architecture.md)
 
 9. User Stories ableiten & Backlog konkretisieren
    Backlog verfeinern und erste Features priorisieren.
+   → [`backlog.md`](backlog.md)
 
 10. **Implementieren**
     In kleinen Schritten mit Claude.

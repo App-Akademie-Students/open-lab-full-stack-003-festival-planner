@@ -46,9 +46,9 @@ nicht-funktionale Rahmenbedingungen).
 
 | #  | Anforderung |
 |----|-------------|
-| T1 | Stack ausschließlich: FastAPI, SQLAlchemy, SQLite, HTML, Vanilla JS – keine weiteren Frameworks oder Dependencies. |
+| T1 | Stack ausschließlich: FastAPI, SQLAlchemy, SQLite, HTML, Vanilla JS – keine weiteren Frameworks oder Dependencies. Ausnahme: pytest + httpx als reine Dev-Dependencies für Tests. |
 | T2 | Die Anwendung ist lokal als ein Prozess startbar (uvicorn). |
-| T3 | Die „aktuelle Zeit" für F3 wird serverseitig in einer festen Festival-Zeitzone bestimmt. |
+| T3 | Die „aktuelle Zeit" für F3 wird serverseitig in einer festen Festival-Zeitzone bestimmt: fester Offset UTC+02:00. |
 
 **Erweiterbarkeit (Leitplanke, keine Umsetzung im MVP):**
 B4 (vollständige Zeitstempel) hält einen späteren Tagesfilter / Mehrtägigkeit als reine

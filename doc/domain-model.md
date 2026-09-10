@@ -44,7 +44,7 @@ Ziel: das kleinstmögliche Modell, das die Anforderungen trägt.
 ## Was NICHT gespeichert / nicht modelliert wird
 
 - „läuft jetzt" / „als Nächstes" – zur Laufzeit berechnet.
-- Sortierreihenfolge – Query (`ORDER BY starts_at`).
+- Sortierreihenfolge – Query (`ORDER BY starts_at, stage`).
 - Liste der Bühnen – abgeleitet (`SELECT DISTINCT stage`).
 - Festival, Tag/Datum als eigene Entität, Genre, Beschreibung, Künstlerprofil.
 - Nutzer, Sessions, Favoriten, Merkzettel (C1 – kein Login).

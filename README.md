@@ -62,7 +62,7 @@ Ihr benötigt:
 
 Die Installation von Claude Code ist hier beschrieben:
 
-[Claude Code unter VS Code installieren](docs/claude-install.md)
+[Claude Code unter VS Code installieren](doc/claude-install.md)
 
 ---
 
@@ -75,7 +75,7 @@ git clone https://github.com/App-Akademie-Students/open-lab-full-stack-003-festi
 Anschließend in den Projektordner wechseln:
 
 ```bash
-cd festival-planner
+cd open-lab-full-stack-003-festival-planner
 ```
 
 Das Projekt in VS Code öffnen:
@@ -230,7 +230,7 @@ Die Datei wird während des Projekts gemeinsam weiterentwickelt.
 
 Die Projektstruktur wird im Verlauf des Open Labs gemeinsam entwickelt.
 
-Eine mögliche Struktur könnte später beispielsweise so aussehen:
+Aktueller Stand:
 
 ```text
 festival-planner/
@@ -240,14 +240,17 @@ festival-planner/
 ├── requirements.txt
 ├── .gitignore
 │
-├── docs/
-│   └── claude-install.md
-|   └── roadmap.md
-│
-
+└── doc/
+    ├── claude-install.md
+    ├── roadmap.md
+    ├── requirements.md
+    ├── domain-model.md
+    ├── architecture.md
+    └── backlog.md
 ```
 
-Die endgültige Struktur ist bewusst noch nicht vollständig vorgegeben.
+Die geplante Struktur der Anwendung (`app/`, `static/`, `tests/`) ist in
+[`doc/architecture.md`](doc/architecture.md) beschrieben.
 
 ---
 

@@ -1,8 +1,7 @@
 # Python
 
-**pycache**/
+__pycache__/
 *.py[cod]
-*.pyo
 *.pyd
 
 # Virtual environment
@@ -35,9 +34,3 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
-
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.vscode/
