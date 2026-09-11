@@ -44,6 +44,7 @@
 11. **Testen und Reviewen**
 
 12. **Refactoring / Dokumentation**
+    evtl. nur dokumentieren und für die nächste Woche (Datenbank Fokus, gleiche Thema) vormerken
 
 
 

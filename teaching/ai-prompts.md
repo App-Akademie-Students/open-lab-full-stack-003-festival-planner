@@ -112,3 +112,86 @@ Für jede Story:
 
 Noch keinen Code erzeugen.
 Zeige mir zunächst nur den Vorschlag.
+
+
+## 10) Anwendungscode implementieren (Freitag, 11.09.)
+
+Setze die noch offenen User Stories aus `doc/user-stories.md` bzw. dem Backlog nacheinander um.
+
+Arbeite die Stories in der festgelegten Reihenfolge ab, ohne nach jeder Story auf meine Bestätigung zu warten.
+
+Für jede User Story:
+
+- prüfe zuerst die bestehenden Anforderungen und die Architektur,
+    
+- implementiere nur den beschriebenen Scope,
+    
+- ergänze oder aktualisiere sinnvolle Tests,
+    
+- führe die Tests aus,
+    
+- prüfe anschließend kurz, ob die Akzeptanzkriterien erfüllt sind,
+    
+- gehe danach selbstständig zur nächsten User Story über.
+    
+Halte dich an `CLAUDE.md` sowie an die bestehenden Requirements-, Domain-Model- und Architektur-Dokumente.
+
+Keine zusätzlichen Features, Frameworks oder Architekturänderungen einführen, wenn sie nicht für die jeweilige Story notwendig sind.
+
+Nur dann stoppen und nachfragen, wenn:
+
+- Anforderungen einander widersprechen,
+    
+- eine Entscheidung nötig ist, die nicht aus der vorhandenen Dokumentation ableitbar ist,
+    
+- eine Änderung den vereinbarten Scope oder die Architektur wesentlich verändern würde.
+    
+Ansonsten arbeite die User Stories selbstständig bis zum Ende ab.
+
+## 11) Abschluss und Review (Freitag, 11.09.)
+Reviewe gezielt den Backend-Code des Festival Planners.
+
+Konzentriere dich auf:
+
+* `app/main.py`
+* `app/models.py`
+* `app/schedule.py`
+* die zugehörigen Tests
+
+Führe keine Änderungen durch.
+
+Prüfe den Code aus zwei Perspektiven:
+
+1. **Erfüllt die Implementierung die Akzeptanzkriterien der bereits umgesetzten User Stories?**
+2. **Ist der Code qualitativ so, dass du ihn in einem Pull Request freigeben würdest?**
+
+Bewerte dabei insbesondere:
+
+* Verständlichkeit
+* Struktur
+* Robustheit
+* Wartbarkeit
+* Tests
+* Übereinstimmung mit `CLAUDE.md`
+* Übereinstimmung mit Requirements, Domain Model und Architektur
+* Erfüllung der Akzeptanzkriterien aus dem Backlog
+
+Prüfe bei den Akzeptanzkriterien nicht nur den Happy Path, sondern auch relevante Grenzfälle.
+
+Klassifiziere jedes relevante Finding als:
+
+* ✅ OK
+* ⚠️ Änderungswunsch
+* ❌ Blocker
+
+Nenne nur relevante Findings. Vermeide rein kosmetische Vorschläge und unnötiges Refactoring.
+
+Strukturiere den Review-Bericht so:
+
+1. Erfüllung der Akzeptanzkriterien
+2. Code-Review-Findings
+3. Fehlende oder unzureichende Tests
+4. Abweichungen von Requirements, Domain Model, Architektur oder `CLAUDE.md`
+5. Gesamturteil: freigeben / freigeben mit Änderungen / nicht freigeben
+
+Ändere noch keinen Code.
