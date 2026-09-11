@@ -149,7 +149,11 @@ Nur dann stoppen und nachfragen, wenn:
 Ansonsten arbeite die User Stories selbstständig bis zum Ende ab.
 
 ## 11) Abschluss und Review (Freitag, 11.09.)
+
+bitte in einem unabhängigen sub-task durchführen.
 Reviewe gezielt den Backend-Code des Festival Planners.
+
+
 
 Konzentriere dich auf:
 
